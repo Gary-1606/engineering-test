@@ -1,4 +1,7 @@
+import { RolllStateType } from "shared/models/roll"
+
 export interface Person {
+  type?: RolllStateType;
   id: number
   first_name: string
   last_name: string

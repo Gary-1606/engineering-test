@@ -1,0 +1,41 @@
+.column-1 .MuiListItem-root {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: unset;
+  }
+  
+  .column-1 .MuiSelect-select {
+    color: #fff;
+    font-size: 14px;
+    font-family: unset;
+    font-weight: 600;
+  }
+  
+  .column-1 .MuiSelect-icon {
+    color: #fff;
+  }
+  
+  .column-1 .MuiInput-underline:before,
+  .column-1 .MuiInput-underline:after,
+  .search-container .MuiInput-underline:before,
+  .search-container .MuiInput-underline:after {
+    content: none;
+  }
+  
+  .sort-icon {
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+  }
+  
+  .search-container .MuiInputBase-input {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: unset;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+  }
+  
