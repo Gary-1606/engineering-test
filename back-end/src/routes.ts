@@ -82,9 +82,39 @@ export const Routes = [
     action: "updateStudentRollState",
   },
   {
+    method: "get",
+    route: "/group/get-all",
+    controller: GroupController,
+    action: "allGroups",
+  },
+  {
     method: "post",
     route: "/group/create",
     controller: GroupController,
     action: "createGroup",
+  },
+  {
+    method: "post",
+    route: "/group/update",
+    controller: GroupController,
+    action: "updateGroup",
+  },
+  {
+    method: "delete",
+    route: "/group/delete",
+    controller: GroupController,
+    action: "removeGroup",
+  },
+  {
+    method: "post",
+    route: "/group/add-student",
+    controller: GroupController,
+    action: "addGroupStudent",
+  },
+  {
+    method: "get",
+    route: "/group/get-all-students",
+    controller: GroupController,
+    action: "getGroupStudents",
   },
 ]
